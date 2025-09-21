@@ -1,9 +1,13 @@
 {
   imports = [
-    ./dashboard.nix
+    ./dashboards
     ./colors
-    ./which-key.nix
-    ./lsp.nix
-  ];
+    ./lsp
 
+    ./which-key.nix
+    ./nvim-tree.nix
+    ./noice.nix
+    ./lualine.nix
+    ./supermaven.nix
+  ];
 }

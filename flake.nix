@@ -7,7 +7,7 @@
     nvf.url = "github:NotAShelf/nvf";
   };
 
-   outputs = {nixpkgs, ...} @ inputs: {
+  outputs = {nixpkgs, ...} @ inputs: {
     packages.x86_64-linux = {
       # Set the default package to the wrapped instance of Neovim.
       # This will allow running your Neovim configuration with
@@ -19,10 +19,7 @@
           modules = [
             ./config
           ];
-        })
-        .neovim;
+        }).neovim;
     };
   };
 }
-
-
