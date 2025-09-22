@@ -121,41 +121,42 @@
     #}
 
     ## noice
-    #{
-    #  key = "<leader>n";
-    #  action = "";
-    #  desc = "+noice";
-    #}
-    #{
-    #  key = "<leader>nl";
-    #  action = "<cmd>NoiceLast<CR>";
-    #  mode = "n";
-    #  desc = "Noice Last Message";
-    #}
-    #{
-    #  key = "<leader>nh";
-    #  action = "<cmd>NoiceHistory<CR>";
-    #  mode = "n";
-    #  desc = "Noice History";
-    #}
-    #{
-    #  key = "<leader>na";
-    #  action = "<cmd>NoiceAll<CR>";
-    #  mode = "n";
-    #  desc = "Noice Allah";
-    #}
-    #{
-    #  key = "<leader>nd";
-    #  action = "<cmd>NoiceDismiss<CR>";
-    #  mode = "n";
-    #  desc = "Noice Dismiss";
-    #}
-    #{
-    #  key = "<leader>nf";
-    #  action = "<cmd>NoicePick<CR>";
-    #  mode = "n";
-    #  desc = "Noice Picker (Telescope)";
-    #}
+    {
+      key = "<leader>n";
+      action = "";
+      mode = "n";
+      desc = "+noice";
+    }
+    {
+      key = "<leader>nl";
+      action = "<cmd>NoiceLast<CR>";
+      mode = "n";
+      desc = "Noice Last Message";
+    }
+    {
+      key = "<leader>nh";
+      action = "<cmd>NoiceHistory<CR>";
+      mode = "n";
+      desc = "Noice History";
+    }
+    {
+      key = "<leader>na";
+      action = "<cmd>NoiceAll<CR>";
+      mode = "n";
+      desc = "Noice Allah";
+    }
+    {
+      key = "<leader>nd";
+      action = "<cmd>NoiceDismiss<CR>";
+      mode = "n";
+      desc = "Noice Dismiss";
+    }
+    {
+      key = "<leader>nf";
+      action = "<cmd>NoicePick<CR>";
+      mode = "n";
+      desc = "Noice Picker (Telescope)";
+    }
 
     # harpoon
   ];
