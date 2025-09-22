@@ -1,5 +1,5 @@
 {
-  vim.startPlugins = [ "nvim-web-devicons" ];
+  vim.startPlugins = ["nvim-web-devicons"];
 
   vim.filetree.nvimTree = {
     enable = true;
@@ -36,6 +36,9 @@
 
     mappings = {
       toggle = "<leader>e";
+      refresh = "<Nop>";
+      findFile = "<Nop>";
+      focus = "<Nop>";
     };
   };
 }
