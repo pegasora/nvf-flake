@@ -1,4 +1,7 @@
 {pkgs, ...}: {
+  vim.viAlias = true;
+  vim.vimAlias = true;
+
   vim.globals = {
     mapleader = " ";
     maplocalleader = "\\";

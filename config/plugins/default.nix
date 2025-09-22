@@ -14,5 +14,6 @@
     ./tree-sitter.nix
     ./todo.nix
     ./bufferline.nix
+    ./blink.nix
   ];
 }
