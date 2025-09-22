@@ -159,5 +159,19 @@
     }
 
     # harpoon
+    # todo
+    {
+      key = "<leader>t";
+      action = "";
+      mode = "n";
+      desc = "+Todo";
+    }
+    # oil
+    {
+      key = "<leader>e";
+      action = "<cmd>Oil<CR>";
+      mode = "n";
+      desc = "+Oil";
+    }
   ];
 }
