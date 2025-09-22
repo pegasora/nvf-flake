@@ -11,7 +11,8 @@
 
   vim.clipboard = {
     enable = true;
-    #providers = "unnamedplus";
+    registers = "unnamedplus";
+    providers.wl-copy.enable = true;
   };
 
   vim.undoFile.enable = true;
