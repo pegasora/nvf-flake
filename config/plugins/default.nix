@@ -3,10 +3,10 @@
     ./dashboards
     ./colors
     ./lsp
+    ./explorer
 
+    ./spectre.nix
     ./which-key.nix
-    #./nvim-tree.nix
-    ./oil.nix
     ./noice.nix
     ./lualine.nix
     ./supermaven.nix
