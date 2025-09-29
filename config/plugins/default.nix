@@ -5,6 +5,9 @@
     ./lsp
     ./explorer
 
+    ./flash.nix
+    ./trouble.nix
+    ./gitsigns.nix
     ./spectre.nix
     ./which-key.nix
     ./noice.nix

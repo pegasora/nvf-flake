@@ -166,6 +166,12 @@
       mode = "n";
       desc = "+Todo";
     }
+    {
+      key = "<leader>td";
+      action = "";
+      mode = "n";
+      desc = "+Todo";
+    }
     # oil
     {
       key = "<leader>e";

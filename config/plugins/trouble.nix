@@ -1,5 +1,5 @@
 {
-  vim.git.gitsigns = {
+  vim.lsp.trouble = {
     enable = true;
   };
 }
