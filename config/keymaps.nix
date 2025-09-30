@@ -174,7 +174,7 @@
     }
     # oil
     {
-      key = "<leader>e";
+      key = "<leader>o";
       action = "<cmd>Oil<CR>";
       mode = "n";
       desc = "+Oil";
