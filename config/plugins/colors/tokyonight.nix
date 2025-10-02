@@ -2,7 +2,7 @@
   vim.theme = {
     enable = true;
     name = "tokyonight";
-    style = "night";
+    style = "moon";
     transparent = true;
   };
 }

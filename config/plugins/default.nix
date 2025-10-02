@@ -5,6 +5,7 @@
     ./lsp
     ./explorer
 
+    ./autopairs.nix
     ./flash.nix
     ./trouble.nix
     ./gitsigns.nix
