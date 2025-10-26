@@ -7,5 +7,6 @@
     ./todo.nix
     ./tree-sitter.nix
     ./trouble.nix
+    ./toggleterm.nix
   ];
 }
