@@ -7,6 +7,7 @@
     ./rust.nix
     ./lua.nix
     ./zig.nix
+    ./conform.nix
   ];
   vim.lsp.enable = true;
   vim.lsp.formatOnSave = true;

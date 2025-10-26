@@ -7,6 +7,8 @@
       confirm = "<CR>";
       next = "<C-j>";
       previous = "<C-k>";
+      scrollDocsUp = "<c-u>";
+      scrollDocsDown = "<c-d>";
     };
   };
 }
