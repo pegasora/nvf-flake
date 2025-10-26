@@ -8,10 +8,6 @@
         setupOpts = {
           option_name = true;
         };
-        after = ''
-          printf("spectre loaded")
-        '';
-
         lazy = true;
         keys = [
           {
