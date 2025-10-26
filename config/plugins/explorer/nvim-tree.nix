@@ -4,12 +4,15 @@
   vim.filetree.nvimTree = {
     enable = true;
 
+    openOnSetup = false;
+
     setupOpts = {
       disable_netrw = true;
 
       view = {
         width = 35;
         relativenumber = true;
+        number = true;
       };
       renderer = {
         indent_markers.enable = true;
@@ -30,6 +33,7 @@
         };
       };
       git = {
+        enable = true;
         ignore = false;
       };
     };
