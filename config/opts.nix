@@ -1,4 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   vim.viAlias = true;
   vim.vimAlias = true;
 
@@ -7,7 +8,7 @@
     maplocalleader = "\\";
   };
 
-  vim.lineNumberMode = "relative";
+  vim.lineNumberMode = "relNumber";
 
   vim.clipboard = {
     enable = true;
