@@ -1,7 +1,7 @@
 {
   imports = [
     ./flash.nix
-    ./spectre.nix
+    #./spectre.nix
     ./supermaven.nix
     ./telescope.nix
     ./todo.nix

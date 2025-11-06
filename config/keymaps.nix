@@ -105,7 +105,7 @@
     #################################
     ############ PLUGINS ############
     #################################
-    # telescope -- see the rest in telescope.nix
+    # telescope -- cee the rest in telescope.nix
     #{
     #  key = "<leader>f";
     #  action = "";
