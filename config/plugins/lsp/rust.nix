@@ -5,7 +5,7 @@
 
       format = {
         enable = true;
-        type = "rustfmt";
+        type = ["rustfmt"];
       };
 
       lsp.enable = true;

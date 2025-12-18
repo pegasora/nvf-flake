@@ -6,7 +6,7 @@
 
       format = {
         enable = true;
-        type = "prettier";
+        type = ["prettier"];
       };
 
       lsp.enable = true;
