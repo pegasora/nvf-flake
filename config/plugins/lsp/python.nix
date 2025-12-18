@@ -5,7 +5,7 @@
 
       format = {
         enable = true;
-        type = "ruff";
+        type = ["ruff"];
       };
 
       lsp.enable = true;

@@ -7,7 +7,7 @@
         enable = true;
         # default is alejandra
         #type = "nixfmt";
-        type = "alejandra";
+        type = ["alejandra"];
       };
 
       lsp.enable = true;

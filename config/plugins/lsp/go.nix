@@ -5,7 +5,7 @@
 
       format = {
         enable = true;
-        type = "gofmt";
+        type = ["gofmt"];
       };
 
       lsp.enable = true;
