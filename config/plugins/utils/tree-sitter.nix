@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{pkgs, ...}: {
   vim.treesitter = {
     enable = true;
     grammars = with pkgs.vimPlugins.nvim-treesitter.builtGrammars; [
@@ -11,7 +11,6 @@
       html
       javascript
       json
-      jsonc
       lua
       make
       markdown
