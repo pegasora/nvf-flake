@@ -1,9 +1,6 @@
 plugins:
-- jjsingns 
+- jjsigns 
     - https://github.com/evanphx/jjsigns.nvim
-
-- nvim-navbuddy
-    - https://github.com/hasansujon786/nvim-navbuddy
 
 - zen-mode 
     - https://github.com/folke/zen-mode.nvim
@@ -23,4 +20,6 @@ plugins:
 - triforce 
     - https://github.com/gisketch/triforce.nvim?tab=readme-ov-file
 
+- smear cursor 
+- csvview 
 

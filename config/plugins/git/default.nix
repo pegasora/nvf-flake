@@ -1,5 +1,6 @@
 {
   imports = [
-    ./gitsigns.nix
+    #./gitsigns.nix
+    ./jjsigns.nix
   ];
 }

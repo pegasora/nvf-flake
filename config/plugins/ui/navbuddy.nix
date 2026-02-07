@@ -1,3 +1,8 @@
 {
-  vim.ui.breadcrumbs.navbuddy.enable = true;
+  vim.ui = {
+    breadcrumbs = {
+      enable = true;
+      navbuddy.enable = true;
+    };
+  };
 }
