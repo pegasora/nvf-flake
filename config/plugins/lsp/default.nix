@@ -9,8 +9,12 @@
     ./zig.nix
     ./conform.nix
     ./typst.nix
+    ./just.nix
+    ./json.nix
   ];
-  vim.lsp.enable = true;
-  vim.lsp.formatOnSave = true;
-  vim.lsp.inlayHints.enable = true;
+  vim.lsp = {
+    enable = true;
+    formatOnSave = true;
+    inlayHints.enable = true;
+  };
 }
