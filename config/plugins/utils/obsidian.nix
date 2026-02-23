@@ -6,7 +6,7 @@
       workspaces = [
         {
           name = "notes";
-          path = "~/notes";
+          path = "~/Notes";
         }
       ];
     };
