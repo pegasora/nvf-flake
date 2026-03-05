@@ -8,9 +8,13 @@
 
     setupOpts = {
       disable_netrw = true;
+      hijack_netrw = true;
+      sync_root_with_cwd = true;
+      respect_buf_cwd = true;
 
       view = {
         width = 35;
+        #float.enable = true;
         relativenumber = true;
         number = true;
       };
