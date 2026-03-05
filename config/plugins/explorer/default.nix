@@ -2,6 +2,7 @@
   imports = [
     #./nvim-tree.nix
     #./oil.nix
-    ./yazi.nix
+    #./yazi.nix
+    ./superfile.nix
   ];
 }
