@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   vim.treesitter = {
     enable = true;
+
     grammars = with pkgs.vimPlugins.nvim-treesitter.builtGrammars; [
       bash
       c
@@ -25,7 +26,7 @@
     ];
 
     highlight.enable = true;
-    fold = true;
+    fold = false;
     #indent.enable = true;
   };
 }
