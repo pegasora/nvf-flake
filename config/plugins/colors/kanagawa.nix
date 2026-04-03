@@ -23,6 +23,6 @@
         theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
       },
     })
-    vim.cmd.colorscheme("kanagawa-wave")
+    vim.cmd.colorscheme("kanagawa")
   '';
 }

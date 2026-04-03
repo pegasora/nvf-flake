@@ -3,12 +3,12 @@
     enable = true;
 
     setupOpts = {
-      open_for_directories = false;
+      open_for_directories = true;
       floating_window_scaling_factor = 1.0;
     };
     mappings = {
-      #openYazi = "<leader>e";
-      yaziToggle = "<leader>e";
+      openYazi = "<leader>e";
+      #yaziToggle = "<leader>e";
     };
   };
 }
