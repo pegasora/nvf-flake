@@ -1,15 +1,10 @@
-plugins:
-- jjsigns 
-    - https://github.com/evanphx/jjsigns.nvim
+## Priorities
+1. switch back to yazi 
+    - figure out what the bug is that keeps causing the find next box  to pop up and not go away
+    - integrate stylix styiling from main nixos system (if it is present in the installed system)
 
-- zen-mode 
-    - https://github.com/folke/zen-mode.nvim
 
-- typst-preview 
-    - https://github.com/chomosuke/typst-preview.nvim
-
-- agentic-nvim
-    - https://github.com/carlos-algms/agentic.nvim
+## Things to look into later
 
 - configure blink.cmp more 
     - https://github.com/saghen/blink.cmp
@@ -20,6 +15,5 @@ plugins:
 - triforce 
     - https://github.com/gisketch/triforce.nvim?tab=readme-ov-file
 
-- smear cursor 
-- csvview 
+
 
