@@ -28,6 +28,7 @@
     splitright = true;
     wrap = false;
     updatetime = 50;
+    foldenable = false;
   };
 
   vim.visuals = {
