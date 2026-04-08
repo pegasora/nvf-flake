@@ -1,3 +1,4 @@
+{ pkgs, ... }:
 {
   vim.autocomplete.blink-cmp = {
     enable = true;
@@ -9,6 +10,12 @@
       previous = "<C-k>";
       scrollDocsUp = "<c-u>";
       scrollDocsDown = "<c-d>";
+    };
+    setupOpts.sources.default = ["lsp" "path" "snippets" "buffer" "copilot"];
+    sourcePlugins.copilot = {
+      enable = true;
+      package = pkgs.vimPlugins.blink-cmp-copilot;
+      module = "blink-cmp-copilot";
     };
   };
 }
