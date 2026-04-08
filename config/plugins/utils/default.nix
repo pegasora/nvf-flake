@@ -4,7 +4,8 @@
     #./spectre.nix
     #./smear-cursor.nix
     ./obsidian.nix
-    ./supermaven.nix
+    #./supermaven.nix
+    ./copilot.nix
     ./telescope.nix
     ./todo.nix
     ./tree-sitter.nix
