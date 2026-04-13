@@ -3,7 +3,7 @@
     enable = true;
     # cmp.enable is for nvim-cmp — leave false so inline suggestions are active
     mappings.suggestion = {
-      accept = "<Tab>";
+      accept = "<S-Tab>";
       acceptWord = "<C-j>";
       dismiss = "<C-]>";
     };
