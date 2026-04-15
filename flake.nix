@@ -22,6 +22,7 @@
         "aarch64-darwin"
       ];
 
+      # Standalone package output — colors baked in, works on non-nix systems
       perSystem = {system, ...}: let
         pkgs = nixpkgs.legacyPackages.${system};
       in {
@@ -30,6 +31,16 @@
             inherit pkgs;
             modules = [./config];
           }).neovim;
+      };
+
+      # Home Manager module output — no colors, for NixOS+stylix integration
+      flake = {
+        homeManagerModules.default = {
+          imports = [
+            nvf.homeManagerModules.default
+            ./config/no-colors.nix
+          ];
+        };
       };
     };
 }
