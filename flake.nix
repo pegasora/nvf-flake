@@ -33,14 +33,10 @@
           }).neovim;
       };
 
-      # Home Manager module output — no colors, for NixOS+stylix integration
+      # Export config module path for neovimConfiguration consumption
+      # Used by NixOS flake to build neovim with stylix colors injected
       flake = {
-        homeManagerModules.default = {
-          imports = [
-            nvf.homeManagerModules.default
-            ./config/no-colors.nix
-          ];
-        };
+        lib.noColorsModule = ./config/no-colors.nix;
       };
     };
 }
