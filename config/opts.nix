@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   vim.viAlias = true;
   vim.vimAlias = true;
 
@@ -24,7 +23,7 @@
 
     termguicolors = true;
     mouse = "a";
-    signcolumn = "yes";
+    signcolumn = "yes:2";
     splitright = true;
     wrap = false;
     updatetime = 50;

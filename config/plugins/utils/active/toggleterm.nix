@@ -2,11 +2,11 @@
   vim.terminal.toggleterm = {
     enable = true;
     setupOpts = {
-      direction = "vertical";
+      direction = "float";
       float_opts = {
         border = "curved";
-        height = 30;
-        width = 150;
+        #height = 30;
+        #width = 150;
       };
       close_on_exit = false;
       shell = "fish";

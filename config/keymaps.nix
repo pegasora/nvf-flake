@@ -5,7 +5,7 @@
       key = "q:";
       action = "<Nop>";
       mode = "n";
-      noremap = true;
+      #noremap = true;
     }
 
     # force quit
@@ -59,26 +59,26 @@
     }
 
     # commenting
-    {
-      key = "gco";
-      action = "o<esc>Vcx<esc>normal gcc<cr>fxa<bs>";
-      mode = "n";
-      desc = "Add comment below";
-    }
-    {
-      key = "gcO";
-      action = "O<esc>Vcx<esc>normal gcc<cr>fxa<bs>";
-      mode = "n";
-      desc = "Add comment Above";
-    }
+    #{
+    #  key = "gco";
+    #  action = "o<esc>Vcx<esc>normal gcc<cr>fxa<bs>";
+    #  mode = "n";
+    #  desc = "Add comment below";
+    #}
+    #{
+    #  key = "gcO";
+    #  action = "O<esc>Vcx<esc>normal gcc<cr>fxa<bs>";
+    #  mode = "n";
+    #  desc = "Add comment Above";
+    #}
 
     # new file
-    {
-      key = "<leader>fn";
-      action = "<cmd>enew<cmd>";
-      mode = "n";
-      desc = "New file";
-    }
+    #{
+    #  key = "<leader>fn";
+    #  action = "<cmd>enew<cmd>";
+    #  mode = "n";
+    #  desc = "New file";
+    #}
 
     # windows
     {
@@ -166,18 +166,25 @@
       mode = "n";
       desc = "+Todo";
     }
-    {
-      key = "<leader>td";
-      action = "";
-      mode = "n";
-      desc = "+Todo";
-    }
+    #{
+    #  key = "<leader>td";
+    #  action = "";
+    #  mode = "n";
+    #  desc = "+Todo";
+    #}
     # oil
+    #{
+    #  key = "<leader>o";
+    #  action = "<cmd>Oil<CR>";
+    #  mode = "n";
+    #  desc = "+Oil";
+    #}
+    # grug-far
     {
-      key = "<leader>o";
-      action = "<cmd>Oil<CR>";
+      key = "<leader>gf";
+      action = "<cmd>GrugFar<CR>";
       mode = "n";
-      desc = "+Oil";
+      desc = "GrugFar (Find + Replace)";
     }
   ];
 }
