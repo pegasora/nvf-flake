@@ -28,6 +28,8 @@
     wrap = false;
     updatetime = 50;
     foldenable = false;
+    conceallevel = 1;
+    concealcursor = "ivV";
   };
 
   vim.visuals = {

@@ -1,7 +1,7 @@
 # also doubles up as javascript
 {
   vim.languages = {
-    ts = {
+    typescript = {
       enable = true;
 
       format = {
