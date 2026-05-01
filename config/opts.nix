@@ -29,7 +29,7 @@
     updatetime = 50;
     foldenable = false;
     conceallevel = 1;
-    concealcursor = "ivV";
+    concealcursor = "n";
   };
 
   vim.visuals = {
